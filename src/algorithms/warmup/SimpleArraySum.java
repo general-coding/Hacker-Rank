@@ -20,5 +20,7 @@ public class SimpleArraySum {
 		}
 		
 		System.out.println(total);
+		
+		in.close();
 	}
 }

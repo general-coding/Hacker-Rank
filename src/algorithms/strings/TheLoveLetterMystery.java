@@ -1,4 +1,4 @@
-package algorithms.warmup;
+package algorithms.strings;
 
 /*
  * Problem Statement
