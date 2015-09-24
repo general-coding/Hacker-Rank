@@ -1,11 +1,5 @@
 package algorithms.implementation;
 
-/*
- * Problem Statement
- * Find Digits
- * https://www.hackerrank.com/challenges/find-digits
- */
-
 public class FindDigits {
 
 	public static void main(String[] args) {

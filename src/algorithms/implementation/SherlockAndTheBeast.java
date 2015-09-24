@@ -2,12 +2,6 @@ package algorithms.implementation;
 
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Sherlock and The Beast
- * https://www.hackerrank.com/challenges/sherlock-and-the-beast 
- */
-
 public class SherlockAndTheBeast {
 
 	public static void main(String[] args) {

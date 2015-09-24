@@ -1,11 +1,5 @@
 package algorithms.implementation;
 
-/*
- * Problem Statement 
- * HackerRank Utopian Tree
- * https://www.hackerrank.com/challenges/utopian-tree
- */
-
 import java.util.*;
 
 public class UtopianTree {

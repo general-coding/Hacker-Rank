@@ -2,12 +2,6 @@ package algorithms.implementation;
 
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Caesar Cipher 1
- * https://www.hackerrank.com/challenges/caesar-cipher-1
- */
-
 public class CaesarCipher {
 
 	public static void main(String[] args) {

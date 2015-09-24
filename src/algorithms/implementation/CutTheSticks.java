@@ -1,11 +1,5 @@
 package algorithms.implementation;
 
-/*
- * Problem Statement
- * Cut The Sticks
- * https://www.hackerrank.com/challenges/cut-the-sticks 
- */
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;

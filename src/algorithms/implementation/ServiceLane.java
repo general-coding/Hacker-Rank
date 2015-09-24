@@ -1,11 +1,5 @@
 package algorithms.implementation;
 
-/*
- * Problem Statement
- * Service Lane
- * https://www.hackerrank.com/challenges/service-lane
- */
-
 import java.util.Scanner;
 
 public class ServiceLane {

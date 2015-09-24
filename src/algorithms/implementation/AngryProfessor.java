@@ -1,11 +1,5 @@
 package algorithms.implementation;
 
-/*
- * Problem Statement
- * Angry Professor
- * https://www.hackerrank.com/challenges/angry-professor 
- */
-
 import java.util.Scanner;
 
 public class AngryProfessor {
