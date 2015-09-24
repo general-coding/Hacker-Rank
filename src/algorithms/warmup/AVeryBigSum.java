@@ -1,11 +1,5 @@
 package algorithms.warmup;
 
-/*
- * Problem Statement
- * A Very Big Sum
- * https://www.hackerrank.com/challenges/a-very-big-sum
- */
-
 import java.util.Scanner;
 import java.math.BigInteger;
 

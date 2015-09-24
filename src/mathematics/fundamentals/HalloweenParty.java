@@ -1,4 +1,4 @@
-package algorithms.warmup;
+package mathematics.fundamentals;
 
 /*
  * Problem Statement

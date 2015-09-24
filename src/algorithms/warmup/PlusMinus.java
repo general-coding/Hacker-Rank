@@ -2,12 +2,6 @@ package algorithms.warmup;
 
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Plus Minus
- * https://www.hackerrank.com/challenges/plus-minus 
- */
-
 public class PlusMinus {
 
 	public static void main(String[] args) {

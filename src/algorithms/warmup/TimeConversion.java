@@ -4,12 +4,6 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/*
- * Problem Statement
- * Time Conversion
- * https://www.hackerrank.com/challenges/time-conversion
- */
-
 public class TimeConversion {
 
 	public static void main(String[] args) {

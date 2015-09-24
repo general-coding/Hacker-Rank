@@ -1,11 +1,5 @@
 package algorithms.warmup;
 
-/*
- * Problem Statement
- * Solve Me First
- * https://www.hackerrank.com/challenges/solve-me-first 
- */
-
 import java.util.*;
 
 public class SolveMeFirst {

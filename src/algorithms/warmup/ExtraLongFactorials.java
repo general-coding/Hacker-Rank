@@ -1,11 +1,5 @@
 package algorithms.warmup;
 
-/*
- * Problem Statement
- * Extra Long Factorials
- * https://www.hackerrank.com/challenges/extra-long-factorials 
- */
-
 import java.math.BigInteger;
 import java.util.Scanner;
 

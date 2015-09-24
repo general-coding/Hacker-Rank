@@ -2,12 +2,6 @@ package algorithms.warmup;
 
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Staircase
- * https://www.hackerrank.com/challenges/staircase
- */
-
 public class Staircase {
 
 	public static void main(String[] args) {

@@ -5,12 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Library Fine
- * https://www.hackerrank.com/challenges/library-fine
- */
-
 public class LibraryFine {
 
 	@SuppressWarnings("deprecation")

@@ -2,12 +2,6 @@ package algorithms.warmup;
 
 import java.util.Scanner;
 
-/*
- * Problem Statement
- * Diagonal Difference
- * https://www.hackerrank.com/challenges/diagonal-difference
- */
-
 public class DiagonalDifference {
 
 	public static void main(String[] args) {
