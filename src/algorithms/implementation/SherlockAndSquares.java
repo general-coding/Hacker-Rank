@@ -16,6 +16,8 @@ public class SherlockAndSquares {
 			int count = (int) ((Math.floor(Math.sqrt(high)) - Math.ceil(Math.sqrt(low))) + 1);
 			System.out.println(count);
 		}
+		
+		in.close();
 	}
 
 }

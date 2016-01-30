@@ -1,4 +1,4 @@
-package algorithms.warmup;
+package algorithms.implementation;
 
 import java.math.BigInteger;
 import java.util.Scanner;
