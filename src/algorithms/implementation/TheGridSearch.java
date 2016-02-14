@@ -51,6 +51,7 @@ public class TheGridSearch {
 		for (int i = 0; i < t; i++) {
 			int R = in.nextInt();
 			int C = in.nextInt();
+			C = C++;
 
 			String G[] = new String[R];
 			for (int G_i = 0; G_i < R; G_i++) {
@@ -59,6 +60,7 @@ public class TheGridSearch {
 
 			int r = in.nextInt();
 			int c = in.nextInt();
+			c = c++;
 			String P[] = new String[r];
 			for (int P_i = 0; P_i < r; P_i++) {
 				P[P_i] = in.next();
