@@ -20,6 +20,8 @@ public class SwapNodesAlgo {
 			swap(tree, 1, in.nextInt(), 1);
 			System.out.println();
 		}
+		
+		in.close();
 	}
 
 	static void swap(int tree[][], int node, int target, int depth) {
@@ -30,7 +32,7 @@ public class SwapNodesAlgo {
 		if (depth % target == 0) {
 			int temp = tree[node][0];
 			tree[node][0] = tree[node][1];
-			tree[node][1] = tree[node][0];
+			tree[node][1] = temp;
 		}
 
 		swap(tree, tree[node][0], target, depth + 1);
