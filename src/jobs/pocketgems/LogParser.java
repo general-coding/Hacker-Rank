@@ -25,18 +25,18 @@ public class LogParser {
 			if (m.find()) {
 				// System.out.println(m.groupCount());
 				// System.out.println(m.group(0));
-				System.out.println(m.group(1));
+				// System.out.println(m.group(1));
 				// System.out.println(m.group(2));
 				// System.out.println(m.group(3));
 				// System.out.println(m.group(4));
 				// System.out.println(m.group(5));
 				// System.out.println(m.group(6));
 				// System.out.println(m.group(7));
-				System.out.println(m.group(8));
+				// System.out.println(m.group(8));
 				// String date = m.group(1);
 				// String time = m.group(6);
-				String status = m.group(8);
 				String dateTime = m.group(1);
+				String status = m.group(8);
 
 				// System.out.print(dateTime + " : ");
 				// System.out.print(status + " : ");
