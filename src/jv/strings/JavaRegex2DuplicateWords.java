@@ -21,6 +21,7 @@ public class JavaRegex2DuplicateWords {
 				m = r.matcher(input);
 				findMatch = false;
 			}
+			input = findMatch + " ";
 			System.out.println(input);
 			testCases--;
 		}

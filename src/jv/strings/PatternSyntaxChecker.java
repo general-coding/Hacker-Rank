@@ -13,7 +13,7 @@ public class PatternSyntaxChecker {
 		for (int i = 0; i < n; i++) {
 			try {
 				String pattern = sc.nextLine();
-				Pattern p = Pattern.compile(pattern);
+				Pattern.compile(pattern);
 				System.out.println("Valid");
 			} catch (PatternSyntaxException e) {
 				System.out.println("Invalid");
@@ -22,5 +22,4 @@ public class PatternSyntaxChecker {
 
 		sc.close();
 	}
-
 }
