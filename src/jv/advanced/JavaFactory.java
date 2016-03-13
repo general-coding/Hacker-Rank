@@ -42,6 +42,25 @@ class FoodFactory {
 
 public class JavaFactory {
 
+	static class Do_Not_Terminate {
+		public static class ExitTrappedException extends SecurityException {
+
+			private static final long serialVersionUID = 1L;
+		}
+
+		public static void forbidExit() {
+			final SecurityManager securityManager = new SecurityManager() {
+				@Override
+				public void checkPermission(Permission permission) {
+					if (permission.getName().contains("exitVM")) {
+						throw new ExitTrappedException();
+					}
+				}
+			};
+			System.setSecurityManager(securityManager);
+		}
+	}
+
 	public static void main(String[] args) {
 		Do_Not_Terminate.forbidExit();
 
@@ -60,24 +79,5 @@ public class JavaFactory {
 		} catch (Do_Not_Terminate.ExitTrappedException e) {
 			System.out.println("Unsuccessful Termination!!");
 		}
-	}
-}
-
-class Do_Not_Terminate {
-	public static class ExitTrappedException extends SecurityException {
-
-		private static final long serialVersionUID = 1L;
-	}
-
-	public static void forbidExit() {
-		final SecurityManager securityManager = new SecurityManager() {
-			@Override
-			public void checkPermission(Permission permission) {
-				if (permission.getName().contains("exitVM")) {
-					throw new ExitTrappedException();
-				}
-			}
-		};
-		System.setSecurityManager(securityManager);
 	}
 }
