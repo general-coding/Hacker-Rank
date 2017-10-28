@@ -8,8 +8,8 @@ Find second largest number in a list
 https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
 '''
 
-n = int(raw_input())
-a = raw_input().split()
+n = int(input())
+a = input().split()
 b = list(map(int, a))
 x = max(b)
 c = []
@@ -19,4 +19,4 @@ for i in range(0, len(b)):
 
 y = max(c)
 
-print y
+print(y)
